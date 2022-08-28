@@ -1,0 +1,16 @@
+<!--pages/cloud-database/index.wxml-->
+<text>pages/cloud-database/index.wxml</text>
+
+<button type="primary" bindtap="onAddDataTap">新增数据</button>
+
+<button type="primary" bindtap="onDelDataTap">删除数据</button>
+
+<button type="primary" bindtap="onUpDataTap">更新数据</button>
+
+<button type="primary" bindtap="onCheckDataTap">查询数据</button>
+
+<view>
+  =====================================
+</view>
+
+<button type="primary" bindtap="onAddLOLData">添加LOL数据</button>
