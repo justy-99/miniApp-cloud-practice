@@ -14,3 +14,5 @@
 </view>
 
 <button type="primary" bindtap="onAddLOLData">添加LOL数据</button>
+
+<button type="primary" bindtap="onShowLOLDataTap">跳转LOL页面</button>

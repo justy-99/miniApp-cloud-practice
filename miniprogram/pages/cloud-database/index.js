@@ -183,8 +183,13 @@ Page({
     }).skip(page * 5).limit(5).orderBy("rid", "asc").get().then(res => {
       console.log(res);
     })
-
-
   },
+
+  // 调到LOL的页面
+  onShowLOLDataTap() {
+    wx.navigateTo({
+      url: '/pages/lol-live/index',
+    })
+  }
 
 })
